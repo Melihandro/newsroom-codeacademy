@@ -1,0 +1,205 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background: #F2F2F2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* HEADER STYLES */
+
+.header {
+	background-color:#000000;
+	min-height: 80px;
+}
+
+.header img {
+	width: 210px;
+	height: 50px;
+	margin: 15px 0 0 0;
+}
+
+.header .search {
+	float: right;
+	position: relative;
+}
+
+.search-form input {
+	background-color: transparent;
+	border: 0;
+	color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin: 20px 0 0 0;
+	height: 30px;
+	width: 240px;
+
+}
+
+.search-form input:focus {
+	border: 1px solid #000000;;
+	border-bottom: 1px solid #0393FF;
+	background-color: #000000;
+	box-shadow: none;
+	
+}
+
+.search-form input:hover {
+	border: none;
+	border-bottom: 1px solid #0393FF;
+	background-color: #000000;
+}
+
+
+
+.search button {
+	background-color: #000000;
+	border: none;
+	color: #FFFFFF;
+	border-bottom: 1px solid #0393FF;
+	margin: 20px 0 0 10px;
+	padding: 0 10px 5px;
+}
+
+/* NAVIGATION STYLES */
+
+.menu {
+	background-color: #152230;
+	min-height: 40px;
+	
+}
+
+.menu ul{
+	list-style: none;
+	margin:0;
+	padding: 0; 
+}
+
+.menu ul li {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	margin:0;
+	padding: 0 20px;
+	text-align: center;	
+}
+
+
+
+.menu .container ul li:hover {
+	background: #1a77ff;
+	text-decoration: none;
+	
+} 
+
+.menu ul li.active {
+    background: #1a77ff;
+}
+
+
+.menu ul li a {
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+/*MAIN SECTION*/
+
+
+.main {
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg") no-repeat center center;
+	background-size: cover;
+	height: 500px;
+		margin-bottom:50px;
+}
+
+
+.main p.date {
+	margin-top: 30px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+.main .container .col-md-5 {
+    padding: 40px;
+}
+
+.main h2 {
+	color: #FFFFFF;
+	font-size: 4.5em;
+	font-weight:600;
+}
+
+.main .container .col-md-5 h2 span {
+    border-bottom: 5px solid #1a77ff;
+}
+
+.main .container p:last-child {
+		color: #FFFFFF;
+	font-size: 20px;
+}
+
+
+
+/* SUPPORTING */
+
+.supporting {
+	background-color: #F2F2F2;
+}
+
+
+.supporting .container .row .sidebar {
+	background-color: #152230;
+	color: #FFFFFF;
+}
+
+
+.supporting .col-md-8, .supporting .sidebar {
+	padding: 20px 40px;
+	background-color: #FFFFFF;
+}
+
+.supporting h3 {
+	margin-bottom: 30px;
+}
+
+.supporting h4 span {
+	border-bottom: 3px solid #117BFF;
+}
+
+
+.supporting .row .col-md-12 {
+    margin: 50px 0;
+    padding: 0;
+}
+
+.col-md-12 img {
+	width: 100%;
+	background-size: cover;
+}
+
+/* FOOTER */
+
+
+.footer {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.footer .nav {
+	padding: 40px 0;
+}
+
+.footer .nav li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.footer .nav li:last-child {
+	float: right;
+	margin: 0;
+}
